@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <header class="topbar">
+        <div class="menu-icon">&#9776;</div>
+
+        <div class="right-side">
+            <div class="notification">
+                <span class="bell">&#128276;</span>
+                <span class="badge">2</span>
+            </div>
+            <div class="user">
+                <span class="user-name">M. Umer</span>
+                <img src="Umer.png" class="user-img">
+            </div>
+        </div>
+    </header>
+
+    
+    <main class="container">
+        <h1 class="title">Dashboard</h1>
+        <div class="title-line"></div>
+
+
+         <div class="buttons">
+            <button class="clockout">CLOCK-OUT</button>
+            <button class="break">TAKE A BREAK</button>
+        </div>
+
+
+
+
+        <div class="stats-box">
+
+            <div class="stat">
+                <h4>Total Working Hours</h4>
+                <p class="big">03h 58m</p>
+            </div>
+
+            <div class="stat">
+                <h4>Idle Time Spent</h4>
+                <p class="big">20m</p>
+            </div>
+
+            <div class="stat">
+                <h4>Clock-In</h4>
+                <p class="big">10:02 AM</p>
+            </div>
+
+            <div class="stat">
+                <h4>Clock-Out</h4>
+                <p class="big">-</p>
+            </div>
+
+        </div>
+
+        
+
+        
+        <h2 class="sub-title">Timesheet</h2>
+        <div class="sub-title-line"></div>
+
+
+
+
+        <div class="filters-container">
+
+
+       <div class="filter-box">
+        <label>Select Year*</label>
+        <select>
+            <option>2025</option><option>2024</option>
+            <option>2023</option><option>2022</option>
+            <option>2021</option><option>2020</option>
+            <option>2019</option><option>2018</option>
+        </select>
+    </div>
+
+
+
+ <div class="filter-box">
+        <label>Select Month*</label>
+        <select>
+            <option>December</option>
+            <option>November</option>
+            <option>October</option>
+            <option>September</option>
+            <option>August</option>
+            <option>July</option>
+            <option>June</option>
+            <option>May</option>
+            <option>April</option>
+            <option>March</option>
+            <option>February</option>
+            <option>January</option>
+        </select>
+    </div>
+
+
+
+   <div class="filter-box">
+        <label>Select Date*</label>
+        <select>
+            <option>01</option><option>02</option><option>03</option>
+            <option>04</option><option>05</option><option>06</option>
+            <option>07</option><option>08</option><option>09</option>
+            <option>10</option><option>11</option><option>12</option>
+            <option>13</option><option>14</option><option>15</option>
+            <option>16</option><option>17</option><option>18</option>
+        </select>
+    </div>
+
+
+
+    <button class="apply-btn">Apply</button>
+  
+
+</div>
+
+
+        <div class="timesheet-box">
+
+            <div class="timesheet-left">
+
+           
+     <div class="summary-container">
+
+    <div class="left-section">
+
+        <div class="day-block">
+            <div class="day-title">Yesterday</div>
+            <div class="day-title-line"></div>
+
+            <p></p>
+
+            <div class="details-row">
+                <div>
+                    <div class="label">Clock-In</div>
+                    <div class="value">10:05 AM</div>
+                </div>
+                <div>
+                    <div class="label">Clock-Out</div>
+                    <div class="value">6:23 PM</div>
+                </div>
+                <div>
+                    <div class="label">Total Working Hours</div>
+                    <div class="value">8h 02m</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="day-block">
+            <div class="day-title">10 Nov, 2025</div>
+            <div class="dayn-title-line"></div>
+            <p></p>
+
+            <div class="details-row">
+                <div>
+                    <div class="label">Clock-In</div>
+                    <div class="value">10:08 AM</div>
+                </div>
+                <div>
+                    <div class="label">Clock-Out</div>
+                    <div class="value">6:05 PM</div>
+                </div>
+                <div>
+                    <div class="label">Total Working Hours</div>
+                    <div class="value">7h 58m</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="day-block">
+            <div class="day-title">09 Nov, 2025</div>
+            <div class="days-title-line"></div>
+            <p></p>
+
+            <div class="details-row">
+                <div>
+                    <div class="label">Clock-In</div>
+                    <div class="value">10:00 AM</div>
+                </div>
+                <div>
+                    <div class="label">Clock-Out</div>
+                    <div class="value">6:15 PM</div>
+                </div>
+                <div>
+                    <div class="label">Total Working Hours</div>
+                    <div class="value">8h 01m</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="right-section">
+        <div class="chart-legend">
+            <span><span class="dot nov"></span> November</span>
+            <span><span class="dot oct"></span> October</span>
+            <span><span class="dot sep"></span> September</span>
+        </div>
+
+        <p></p>
+
+        <div class="chart-box">
+            <img src="chart.png" alt="chart" />
+        </div>
+    </div>
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+           
+
+
+
+
+
+    </main>
+
+</body>
+</html>
